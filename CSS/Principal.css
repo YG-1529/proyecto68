@@ -154,7 +154,7 @@ html{
 }
 
 .p1-botones{
-    width: 45%;
+    width: 55%;
     height: 10%;
     margin: 0px auto;
 }
@@ -165,8 +165,8 @@ html{
     font-family: 'PT Sans', sans-serif; 
     background-color: rgb(218, 151, 8);
     padding: 2%;
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 8%;
+    padding-right: 8%;
     float: left;
     transition: all 1s ease;
 }
@@ -183,8 +183,8 @@ html{
     font-family: 'PT Sans', sans-serif; 
     background-color: #1f6696;
     padding: 2%;
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 8%;
+    padding-right: 8%;
     float: right;
     transition: all 1s ease;
 }
@@ -705,9 +705,10 @@ html{
 }
 
 .p9-boton{
-    width: 35%;
-    height: 25%;
+    width: 55%;
+    height: 30%;
     margin: 0px auto;
+    background-color: saddlebrown;
 }
 
 .p9-boton a{
@@ -721,6 +722,7 @@ html{
     padding-right: 26%;
     border-radius: 50px;
     transition: all 1s ease;
+    margin-left: 10%;
 }
 
 .p9-boton a:hover{
