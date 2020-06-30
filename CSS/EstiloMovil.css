@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+/*  font-family: 'PT Sans', sans-serif;  -TEXTO*/
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@500&family=PT+Sans&display=swap');
+/*font-family: 'Fira Sans Condensed', sans-serif; -TITULO*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+  @media screen and (max-width:800px) {
+
+    /*Pagina3*/
+    
+    .p3-pag1{
+      width: 100%;
+      height: 50%;
+
+    }
+
+    .p3-pag2{
+      width: 100%;
+      height: 50%;
+    }
+
+    .p3-cuerpo{
+      width: 90%;
+      height: 40%;
+      margin-left: 4%;
+      display: block;
+      margin-top: 5%;
+      text-align: center;
+    }
+
+    /**Pagina4**/
+    
+    .pagina4-content{
+      width: 82%;
+      height: 100%;
+      margin: 0px auto;
+    }
+
+    /**Pagina5**/
+
+    .iglesias{
+      width: 100%;
+      height: 700px;
+    }
+
+    .iglesias .iglesia1{
+      width: 90%;
+      height: 30%;
+      float: none;
+      margin: 0px auto;
+      transition: all 1s ease;
+    }
+
+    .iglesias .iglesia2{
+      width: 90%;
+      height: 30%;
+      float: none;
+      margin: 0px auto;
+      margin-top: 5%;
+      transition: all 1s ease;
+    }
+
+    .iglesias .iglesia3{
+      width: 90%;
+      height: 30%;
+      float: none;
+      margin: 0px auto;
+      margin-top: 5%;
+      transition: all 1s ease;
+    }
+
+    .iglesia-sec1{
+      width: 40%;
+      height: 100%;
+      float: left;
+    }
+
+    .iglesia-sec2{
+      width: 60%;
+      height: 100%;
+      float: right;
+    }
+
+    .iglesia-sec2 p{
+      text-align: center;
+      color: rgb(107, 107, 107);
+      font-family: 'PT Sans', sans-serif;
+      padding: 0%;
+      font-size: 13px;
+  }
+
+    /**Pagina6-**/
+
+    .pagina6{
+      text-align: center;
+    }
+
+    .pagina6-cuerpo1{
+      width: 90%;
+      height: 30%;
+      float: none;
+      margin: 0px auto;
+    }
+
+    .pagina6-cuerpo1 p{
+      color: rgb(71, 70, 70);
+      font-family: 'PT Sans', sans-serif;
+      font-size: 13px;
+  }
+    
+    .pagina6-cuerpo2{
+        width: 90%;
+        height: 60%;
+        float: none;
+
+        margin: 0px auto;
+        -webkit-box-shadow: -1px 4px 25px 1px rgba(0,0,0,0.75);
+        -moz-box-shadow: -1px 4px 25px 1px rgba(0,0,0,0.75);
+        box-shadow: -1px 4px 25px 1px rgba(0,0,0,0.75);
+    }
+
+    /**Pagina7**/
+
+    .pagina7{
+      height: 160px;
+    }
+
+    .pagina7 h5{
+      font-size: 25px;
+    }
+
+    .somos{
+      padding: 0px;
+      width: 100px;
+      height: 100px;
+      filter: grayscale(80%);
+      transition: all .5s ease;
+      cursor: pointer;
+    }
+
+    /**Pagina8**/
+
+      .pagina8{
+        width: 100%;
+        height: 800px;
+      }
+
+      .p8-1{ /*Contenedor de mapa*/
+        width: 100%;
+        height: 40%;
+        float: none;
+      }
+
+      .p8-2{
+        width: 100%;
+        height: 60%;
+        float: none;
+      }
+
+      /*Pagina fianl*/
+
+      .pagina9-cont1{
+        width: 55%;
+        height: 100%;
+        margin: 0px auto;
+    }
+
+      .iconoo{
+        width: 65%;
+        height: 20%;
+        margin: 0px auto;
+       }
+
+       .p9-boton{
+        width: 100%;
+        height: 30%;
+        margin: 0px auto;
+    }
+  }
+  
