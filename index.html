@@ -5,6 +5,8 @@
 <link rel="stylesheet" href="CSS/Principal.css">
 <link rel="stylesheet" href="CSS/Slider.css">
 <link rel="stylesheet" href="CSS/BotonArriba.css">
+<link rel="stylesheet" href="CSS/menu.css">
+<link rel="stylesheet" href="CSS/EstiloMovil.css">
 <link rel="icon" type="image/png" href="img/logoMenor.png" />
 <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@500&family=PT+Sans&display=swap"
@@ -12,6 +14,7 @@
 <script src="https://kit.fontawesome.com/1b9f4956cf.js" crossorigin="anonymous"></script>
 <Script src="JS/LibreriaBotonArriba.js"></Script>
 <script src="JS/BotonArriba.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
 <body>
 
@@ -45,33 +48,40 @@
     <!--Pagina 1-->
 
     <div class="pagina1">
-        <div class="pagina1-1">
-            <div class="logo">
-                <img src="SVG/logo.svg" alt="">
+        <!--Contador-->
+        <div class="p1-barra">
+            <div class="p1-barra1">
+                <!--Barra-->
             </div>
-            <div class="menu"><br>
+        </div>
+        <!--Menu-->
+        <div class="header">
+            <img src="svg/logo.svg" alt="">
+            <input type="checkbox" id="chk">
+            <label for="chk" class="show-menu-btn">
+                <i class="fas fa-bars"></i>
+            </label>
+
+            <ul class="menu">
                 <a href="#pagina3" class="marcado">NOSOTROS</a>
                 <a href="#pagina2">TESTIMONIOS</a>
                 <a href="#pagina5">IGLESIAS</a>
                 <a href="#pagina6">CALENDARIO</a>
                 <a href="#pagina8">CONTACTANOS</a>
-            </div>
-            <div class="kirios">
-                <img src="SVG/kirios.svg" alt="">
-            </div>
-            <div class="p1-botones">
-                <a href="#" class="p1-btn1"><i class="fas fa-play"></i> REPRODUCIR</a>
-                <a href="#pagina3" class="p1-btn2"><i class="fas fa-briefcase"></i> CONOCENOS</a>
-            </div>
+                <label for="chk" class="hide-menu-btn">
+                    <i class="fas fa-times"></i>
+                </label>
+            </ul>
         </div>
-        <div class="pagina1-2">
-            <!--img-->
-            <div class="p1-barra">
-                <div class="p1-barra1">
-                    <!--Barra-->
-                </div>
-            </div>
+        <!--kirios-->
+        <div class="p1-centro">
+            <h1>Prebiterio 68</h1>
+            <p>
+                Una Obra nacida en el Corazon de Dios
+            </p><br><br><br>
+            <a href="#pagina3">CONOCENOS</a>
         </div>
+
     </div>
 
     <!--PAGINA 2  SLIDERRR-->
@@ -181,7 +191,7 @@
         </div>
         <div class="iglesia2">
             <div class="iglesia-sec1">
-                <img src="SVG/iglesia2.svg"  class="iglesia-img" alt="">
+                <img src="SVG/iglesia2.svg" class="iglesia-img" alt="">
             </div>
             <div class="iglesia-sec2"><br>
                 <h4><i class="fas fa-church"></i> Nombre de Iglesia</h4>
@@ -193,7 +203,7 @@
         </div>
         <div class="iglesia3">
             <div class="iglesia-sec1">
-                <img src="SVG/iglesia2.svg"  class="iglesia-img" alt="">
+                <img src="SVG/iglesia2.svg" class="iglesia-img" alt="">
             </div>
             <div class="iglesia-sec2"><br>
                 <h4><i class="fas fa-church"></i> Nombre de Iglesia</h4>
@@ -208,7 +218,7 @@
     <div class="iglesias">
         <div class="iglesia1">
             <div class="iglesia-sec1">
-                <img src="SVG/iglesia2.svg"  class="iglesia-img" alt="">
+                <img src="SVG/iglesia2.svg" class="iglesia-img" alt="">
             </div>
             <div class="iglesia-sec2"><br>
                 <h4><i class="fas fa-church"></i> Nombre de Iglesia</h4>
@@ -220,7 +230,7 @@
         </div>
         <div class="iglesia2">
             <div class="iglesia-sec1">
-                <img src="SVG/iglesia2.svg"  class="iglesia-img" alt="">
+                <img src="SVG/iglesia2.svg" class="iglesia-img" alt="">
             </div>
             <div class="iglesia-sec2"><br>
                 <h4><i class="fas fa-church"></i> Nombre de Iglesia</h4>
@@ -232,7 +242,7 @@
         </div>
         <div class="iglesia3">
             <div class="iglesia-sec1">
-                <img src="SVG/iglesia2.svg"  class="iglesia-img" alt="">
+                <img src="SVG/iglesia2.svg" class="iglesia-img" alt="">
             </div>
             <div class="iglesia-sec2"><br>
                 <h4><i class="fas fa-church"></i> Nombre de Iglesia</h4>
