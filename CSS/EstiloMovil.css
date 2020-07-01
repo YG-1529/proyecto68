@@ -138,13 +138,14 @@ html{
     }
 
     .somos{
-      padding: 0px;
-      width: 100px;
-      height: 100px;
+      padding: 0%;
+      width: 70px;
+      height: 70px;
       filter: grayscale(80%);
       transition: all .5s ease;
       cursor: pointer;
     }
+
 
     /**Pagina8**/
 
@@ -168,7 +169,7 @@ html{
       /*Pagina fianl*/
 
       .pagina9-cont1{
-        width: 55%;
+        width: 80%;
         height: 100%;
         margin: 0px auto;
     }
