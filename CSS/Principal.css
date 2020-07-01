@@ -39,10 +39,10 @@ html{
 
 @keyframes p3{
     0%{
-        background-image: url(../IMG/iglesia2.jpg);
+        background-image: url(../IMG/iglesia1.jpg);
     }
     45%{
-        background-image: url(../IMG/iglesia2.jpg);
+        background-image: url(../IMG/iglesia1.jpg);
     }
     55%{
         background-image: url(../IMG/iglesia3.jpg);
