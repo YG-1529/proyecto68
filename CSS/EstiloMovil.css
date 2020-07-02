@@ -185,5 +185,35 @@ html{
         height: 30%;
         margin: 0px auto;
     }
-  }
-  
+
+    /*Footer*/
+
+    .pi1{
+      color: #fff;
+      padding: 3%;
+      font-family: 'PT Sans', sans-serif;
+      font-size: 10px;
+    }
+    
+    .pi2{
+        color: #fff;
+        padding: 3%;
+        text-align: right;
+        font-family: 'PT Sans', sans-serif;
+        font-size: 10px;
+    }
+    
+    .pi3{
+        color: rgb(185, 182, 182);
+        text-decoration: none;
+        font-family: 'PT Sans', sans-serif;
+        font-size: 15px;
+        transition: all .5s ease;
+        font-size: 10px;
+    }
+
+    .pi3:hover{
+      font-size: 12px;
+    }
+
+}
