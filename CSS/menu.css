@@ -79,6 +79,17 @@
     padding: 0 10px;
     transition: 0.4s;
   }
+
+  /***************PUNTOS MARCADOS**********/
+
+.menu .marcado{
+  color: #00bb2d;
+}
+
+.menu .marcado1{
+  color: rgb(218, 151, 8);
+}
+
   .show-menu-btn,.hide-menu-btn{
     transition: 0.4s;
     font-size: 30px;
